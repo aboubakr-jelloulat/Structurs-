@@ -50,6 +50,7 @@
     <Compile Include="04_Aggregating Data Using LINQ\Aggregating.cs" />
     <Compile Include="05_Filtering Data with LINQ\Filtering.cs" />
     <Compile Include="06_Sorting\Sorting.cs" />
+    <Compile Include="07_search and predicate methods”\predicate_methods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -3,6 +3,7 @@ using List._01_Inserting_Element;
 using List._02_Remove;
 using List._03_Looping;
 using List._06_Sorting;
+using List._07_search_and_predicate_methods_;
 using List.Aggregating_Data_Using_LINQ;
 using List.Filtering_Data_with_LINQ;
 using System;
@@ -120,8 +121,20 @@ namespace List
 
             // **********  [ Sorting  ]   **********
 
-            Sorting.TestSorting();
 
+
+            //Sorting.TestSorting();
+
+
+
+
+            // **********  [ search and predicate methods  ]   **********
+
+
+            //predicate_methods.TestPredicateMethodsWithIntergers();
+
+
+            predicate_methods.TestPredicateMethodsWithStrings();
 
 
 
