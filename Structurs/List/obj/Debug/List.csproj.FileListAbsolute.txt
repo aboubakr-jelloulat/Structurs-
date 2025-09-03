@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\Structurs-\Structurs\List\bin\Debug\List.exe.config
+C:\Users\HP\Desktop\Structurs-\Structurs\List\bin\Debug\List.exe
+C:\Users\HP\Desktop\Structurs-\Structurs\List\bin\Debug\List.pdb
+C:\Users\HP\Desktop\Structurs-\Structurs\List\obj\Debug\List.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Structurs-\Structurs\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Structurs-\Structurs\List\obj\Debug\List.exe
+C:\Users\HP\Desktop\Structurs-\Structurs\List\obj\Debug\List.pdb
+C:\Users\HP\Desktop\Structurs-\Structurs\List\obj\Debug\List.exe.config
