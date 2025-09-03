@@ -1,4 +1,5 @@
 ﻿using List._00_intro;
+using List._01_Inserting_Element;
 using System;
 using System.Collections.Generic;
 
@@ -68,9 +69,18 @@ namespace List
             // **********  [    Intro    ]   **********
 
 
-            Intro.TestIntro();
+            //Intro.TestIntro();
 
 
+
+            // **********  [    Insert    ]   **********
+
+
+            Insert.TestInsert();
+
+
+
+            Console.ReadKey();
 
         }
     }
