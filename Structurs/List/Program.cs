@@ -2,6 +2,7 @@
 using List._01_Inserting_Element;
 using List._02_Remove;
 using List._03_Looping;
+using List._06_Sorting;
 using List.Aggregating_Data_Using_LINQ;
 using List.Filtering_Data_with_LINQ;
 using System;
@@ -113,7 +114,14 @@ namespace List
 
 
 
-            Filtering.TestFiltering();
+            //Filtering.TestFiltering();
+
+
+
+            // **********  [ Sorting  ]   **********
+
+            Sorting.TestSorting();
+
 
 
 
