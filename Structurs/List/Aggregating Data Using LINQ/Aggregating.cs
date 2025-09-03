@@ -19,8 +19,6 @@ namespace List.Aggregating_Data_Using_LINQ
             Console.WriteLine($"Min = {numbers.Min()}");
             Console.WriteLine($"Max = {numbers.Max()}");
 
-
         }
-
     }
 }
