@@ -2,6 +2,7 @@
 using List._01_Inserting_Element;
 using List._02_Remove;
 using List._03_Looping;
+using List.Aggregating_Data_Using_LINQ;
 using System;
 using System.Collections.Generic;
 
@@ -87,16 +88,21 @@ namespace List
 
 
 
-
             //Remove.TestRemove();
-
 
 
 
             // **********  [    Looping    ]   **********
 
 
-            Looping.TestLooping();
+            //Looping.TestLooping();
+
+
+
+            // **********  [    Aggregating Data Using LINQ    ]   **********
+
+
+            Aggregating.TestAggregatingData();
 
 
 
