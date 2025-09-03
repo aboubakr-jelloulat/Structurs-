@@ -1,6 +1,7 @@
 ﻿using List._00_intro;
 using List._01_Inserting_Element;
 using List._02_Remove;
+using List._03_Looping;
 using System;
 using System.Collections.Generic;
 
@@ -85,7 +86,18 @@ namespace List
             // **********  [    Remove    ]   **********
 
 
-            Remove.TestRemove();
+
+
+            //Remove.TestRemove();
+
+
+
+
+            // **********  [    Looping    ]   **********
+
+
+            Looping.TestLooping();
+
 
 
 
