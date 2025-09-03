@@ -1,5 +1,6 @@
 ﻿using List._00_intro;
 using List._01_Inserting_Element;
+using List._02_Remove;
 using System;
 using System.Collections.Generic;
 
@@ -76,7 +77,15 @@ namespace List
             // **********  [    Insert    ]   **********
 
 
-            Insert.TestInsert();
+
+            //Insert.TestInsert();
+
+
+
+            // **********  [    Remove    ]   **********
+
+
+            Remove.TestRemove();
 
 
 
