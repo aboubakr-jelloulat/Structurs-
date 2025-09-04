@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Dictionary._01_WorkWithDictionary;
+using System;
+
 
 namespace Dictionary
 {
@@ -10,6 +8,19 @@ namespace Dictionary
     {
         static void Main(string[] args)
         {
+
+            // **********  [ Work With Dictionary ] **********
+
+            Work.WorkWithDictionary();
+
+
+
+
+
+
+
+            Console.ReadKey();
+
         }
     }
 }
