@@ -4,6 +4,7 @@ using List._02_Remove;
 using List._03_Looping;
 using List._06_Sorting;
 using List._07_search_and_predicate_methods_;
+using List._08_Working_with_a_List_of_Custom_Objects;
 using List.Aggregating_Data_Using_LINQ;
 using List.Filtering_Data_with_LINQ;
 using System;
@@ -131,10 +132,23 @@ namespace List
             // **********  [ search and predicate methods  ]   **********
 
 
+
+
             //predicate_methods.TestPredicateMethodsWithIntergers();
 
 
-            predicate_methods.TestPredicateMethodsWithStrings();
+            // predicate_methods.TestPredicateMethodsWithStrings();
+
+
+
+
+            // **********  [ Working with a List of Custom Objects  ]   **********
+
+
+
+            CustomObject.TestCustomObject();
+
+
 
 
 

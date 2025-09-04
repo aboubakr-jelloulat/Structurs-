@@ -51,6 +51,8 @@
     <Compile Include="05_Filtering Data with LINQ\Filtering.cs" />
     <Compile Include="06_Sorting\Sorting.cs" />
     <Compile Include="07_search and predicate methods”\predicate_methods.cs" />
+    <Compile Include="08_Working with a List of Custom Objects\CustomObject.cs" />
+    <Compile Include="08_Working with a List of Custom Objects\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
