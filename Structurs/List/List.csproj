@@ -53,6 +53,7 @@
     <Compile Include="07_search and predicate methods”\predicate_methods.cs" />
     <Compile Include="08_Working with a List of Custom Objects\CustomObject.cs" />
     <Compile Include="08_Working with a List of Custom Objects\Person.cs" />
+    <Compile Include="09_Converting\Converting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
