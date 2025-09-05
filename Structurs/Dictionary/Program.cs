@@ -1,4 +1,5 @@
 ﻿using Dictionary._01_WorkWithDictionary;
+using Dictionary.LINQ_with_Dictionaries;
 using System;
 
 
@@ -11,12 +12,16 @@ namespace Dictionary
 
             // **********  [ Work With Dictionary ] **********
 
-            Work.WorkWithDictionary();
+
+
+            //Work.WorkWithDictionary();
 
 
 
+            // **********  [ LINQ with Dictionaries ] **********
 
 
+            clsLINQ.LINQwithDictionaries();
 
 
             Console.ReadKey();

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="00_Intro\Intro.cs" />
     <Compile Include="01_WorkWithDictionary\Work.cs" />
+    <Compile Include="LINQ with Dictionaries\LINQ .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
