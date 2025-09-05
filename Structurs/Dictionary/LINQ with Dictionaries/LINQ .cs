@@ -64,17 +64,65 @@ namespace Dictionary.LINQ_with_Dictionaries
             Console.WriteLine($"Min Quantity: {MinValue}");
 
 
+        }
+
+
+        public static void AdvancedLINQOperations()
+        {
+            Dictionary<string, string> fruits = new Dictionary<string, string>
+            {
+                { "Apple", "Tree" },
+                { "Banana", "Herb" },
+                { "Cherry", "Tree" },
+                { "Strawberry", "Bush" },
+                { "Raspberry", "Bush" }
+            };
+
+            var groubedFruits = fruits.GroupBy(kvp => kvp.Value);
+
+            foreach (var group in groubedFruits)
+            {
+                Console.WriteLine($"\nCategory : {group.Key}\n");
+
+                foreach (var fruit in group)
+                {
+                    Console.WriteLine($"\t-{fruit.Key}");
+                }
+
+            }
+
+
+            // ****  Combining LINQ Queries
+
+            Console.WriteLine("\n\n Combining LINQ Queries : \n");
+
+            Dictionary<string, int> fruitBasket = new Dictionary<string, int>
+            {
+                { "Apple", 5 },
+                { "Banana", 2 },
+                { "Orange", 7 }
+            };
+
+            var sortedFilteredFruits = fruitBasket.OrderBy(kvp => kvp.Value).Where(kvp => kvp.Value > 3).Select(kpv => new { kpv.Key, kpv.Value });
+
+
+            Console.WriteLine("\nSorted and Filtered Fruits:\n");
+            foreach (var fruit in sortedFilteredFruits)
+            {
+                Console.WriteLine($"Fruit: {fruit.Key}, Quantity: {fruit.Value}");
+            }
 
 
         }
+
 
         public static void LINQwithDictionaries()
         {
-            BasicLINQOperations();
+            // BasicLINQOperations();
 
 
+            AdvancedLINQOperations();
 
         }
-
     }
 }
