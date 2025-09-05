@@ -5,3 +5,4 @@ C:\Users\HP\Desktop\Structurs-\Structurs\Dictionary\obj\Debug\Dictionary.csproj.
 C:\Users\HP\Desktop\Structurs-\Structurs\Dictionary\obj\Debug\Dictionary.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\Structurs-\Structurs\Dictionary\obj\Debug\Dictionary.exe
 C:\Users\HP\Desktop\Structurs-\Structurs\Dictionary\obj\Debug\Dictionary.pdb
+C:\Users\HP\Desktop\Structurs-\Structurs\Dictionary\obj\Debug\Dictionary.exe.config

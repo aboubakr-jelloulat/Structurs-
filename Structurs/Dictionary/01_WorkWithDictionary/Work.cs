@@ -45,6 +45,39 @@ namespace Dictionary._01_WorkWithDictionary
             }
 
 
+
+            Console.WriteLine("\n\nTry Get Value Methode in Dictionnary : \n");
+
+            if (fruitBasket.TryGetValue("Orange", out var value))
+            {
+                Console.WriteLine($"Orange Quantity is : {value}");
+            }
+            else
+            {
+                Console.WriteLine("Not Found in the Basket ");
+            }
+
+
+
+            // Exception :
+
+            //Console.WriteLine("\n\n Exception : " + fruitBasket["Banana"]);
+
+
+
+            Console.WriteLine("\n\nHandell Exception : \n");
+
+
+
+            if (fruitBasket.TryGetValue("Banana", out var bananavalue))
+            {
+                Console.WriteLine($"Banana Quantity is : {bananavalue}");
+            }
+            else
+            {
+                Console.WriteLine("Banana Not Found in the Basket ");
+            }
+
         }
 
     }
