@@ -1,5 +1,6 @@
 ﻿using System;
 using Hashset.Intro;
+using Hashset.Work_With_HashSet;
 
 namespace Hashset
 {
@@ -12,8 +13,14 @@ namespace Hashset
             // *********  [Intro]  ********
 
             //clsIntro.intro();
-            clsIntro.declare();
+            //clsIntro.declare();
 
+
+
+
+            // *********  [Work With HashSet]  ********
+
+            Work.WorkWithHasSet();
 
 
 

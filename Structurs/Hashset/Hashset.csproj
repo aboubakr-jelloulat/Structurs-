@@ -46,6 +46,7 @@
     <Compile Include="Intro\Intro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Work With HashSet\Work.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
