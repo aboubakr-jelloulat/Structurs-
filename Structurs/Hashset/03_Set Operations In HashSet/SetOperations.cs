@@ -69,7 +69,7 @@ namespace Hashset._03_Set_Operations_In_HashSet
 
             // like (set1 - set2) union (set2 - set1)
 
-            set1.SymmetricExceptWith(set2); // Remove the duplicate in the two sets 
+            set1.SymmetricExceptWith(set2); // Remove the duplicate in the two sets remove 20 
 
             Console.WriteLine("Symmetric difference of sets: \n");
             foreach (int item in set1)
@@ -83,14 +83,14 @@ namespace Hashset._03_Set_Operations_In_HashSet
         public static void TestSetOperations()
         {
 
-            //UnionOperationWithHashSet();
+            UnionOperationWithHashSet();
 
 
-            //IntersectionOperationWithHashSet();
+            IntersectionOperationWithHashSet();
 
 
 
-            //DifferenceOperationWithHashSet();
+            DifferenceOperationWithHashSet();
 
 
             SymmetricDifferenceOperationWithHashSet();
