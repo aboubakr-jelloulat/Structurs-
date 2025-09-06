@@ -1,4 +1,5 @@
 ﻿using System;
+using Hashset._03_Set_Operations_In_HashSet;
 using Hashset.Intro;
 using Hashset.Work_With_HashSet;
 
@@ -21,8 +22,15 @@ namespace Hashset
             // *********  [Work With HashSet]  ********
 
             //Work.WorkWithHasSet();
+            //Work.UsingHashSetWithLinq();
 
-            Work.UsingHashSetWithLinq();
+
+
+            // *********  [Set Operation In Hash Set]  ********
+
+            SetOperations.TestSetOperations();
+
+
 
 
             Console.ReadKey();

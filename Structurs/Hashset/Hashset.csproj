@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Intro\Intro.cs" />
+    <Compile Include="01_Intro\Intro.cs" />
+    <Compile Include="03_Set Operations In HashSet\SetOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Work With HashSet\Work.cs" />
+    <Compile Include="02_Work With HashSet\Work.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
