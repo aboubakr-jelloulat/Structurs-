@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\bin\Debug\Hashset.exe.config
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\bin\Debug\Hashset.exe
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\bin\Debug\Hashset.pdb
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\obj\Debug\Hashset.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\obj\Debug\Hashset.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\obj\Debug\Hashset.exe
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\obj\Debug\Hashset.pdb
+C:\Users\HP\Desktop\Structurs-\Structurs\Hashset\obj\Debug\Hashset.exe.config

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56D277EA-70F0-459F-8990-9ED0883B8E38}</ProjectGuid>
+    <ProjectGuid>{8F0FC8EC-1947-4EE9-B0C8-E505B1F803BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Dictionary</RootNamespace>
-    <AssemblyName>Dictionary</AssemblyName>
+    <RootNamespace>Hashset</RootNamespace>
+    <AssemblyName>Hashset</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="00_Intro\Intro.cs" />
-    <Compile Include="01_WorkWithDictionary\Work.cs" />
-    <Compile Include="LINQ with Dictionaries\LINQ .cs" />
+    <Compile Include="Intro\Intro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
