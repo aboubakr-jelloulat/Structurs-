@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 
@@ -80,6 +81,63 @@ namespace Hashset.Work_With_HashSet
 
         }
 
+
+        public static void UsingHashSetWithLinq()
+        {
+            HashSet<int> numbers = new HashSet<int> { 1, 2, 3, 4, 5, 6, 7, 10, 12, 14 };
+
+
+
+            Console.WriteLine("\nEven Numbers : \n");
+            var evenNumber = numbers.Where(n => n%2 == 0);
+
+            foreach (var item in evenNumber)
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+            Console.WriteLine("\nNumbers Greater Than 5:\n");
+            var numbersGreaterThanFive = numbers.Where(n => n > 5);
+
+            foreach (var number in numbersGreaterThanFive)
+            {
+                Console.WriteLine(number);
+            }
+
+
+
+            HashSet<string> Names = new HashSet<string>
+            {
+                "Sander",
+                "Baker",
+                "Vini",
+                "Ayoub",
+                "Alica",
+                "Boss",
+                "Moha"
+            };
+
+            Console.WriteLine("\nNames Starting with B:\n");
+            var namesStartWithB = Names.Where(name => name.StartsWith("B"));
+
+            foreach (var name in namesStartWithB)
+            {
+                Console.WriteLine(name);
+            }
+
+
+
+            Console.WriteLine("\nNames Longer Than 5 Characters:\n");
+            var namesLongerThan5Char = Names.Where(name => name.Length < 5);
+
+            foreach (var name in namesLongerThan5Char)
+            {
+                Console.WriteLine(name);
+            }
+
+        }
 
     }
 }

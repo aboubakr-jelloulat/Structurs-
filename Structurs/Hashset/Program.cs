@@ -20,9 +20,9 @@ namespace Hashset
 
             // *********  [Work With HashSet]  ********
 
-            Work.WorkWithHasSet();
+            //Work.WorkWithHasSet();
 
-
+            Work.UsingHashSetWithLinq();
 
 
             Console.ReadKey();
