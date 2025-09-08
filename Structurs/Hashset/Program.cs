@@ -28,8 +28,9 @@ namespace Hashset
 
             // *********  [Set Operation In Hash Set]  ********
 
-            SetOperations.TestSetOperations();
+            //SetOperations.TestSetOperations();
 
+            ComparingSetsWithHasSet.TestComparingSetsWithHasSet();
 
 
 
