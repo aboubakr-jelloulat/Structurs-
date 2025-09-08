@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using Hashset._03_Set_Operations_In_HashSet;
+using Hashset._04_SortedList;
 using Hashset.Intro;
 using Hashset.Work_With_HashSet;
 
@@ -30,7 +32,15 @@ namespace Hashset
 
             //SetOperations.TestSetOperations();
 
-            ComparingSetsWithHasSet.TestComparingSetsWithHasSet();
+            //ComparingSetsWithHasSet.TestComparingSetsWithHasSet();
+
+
+
+            // *********  [Sorted List]  ********
+
+
+            clsSortedList.TestSortedList();
+
 
 
 
